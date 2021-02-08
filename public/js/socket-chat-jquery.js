@@ -50,13 +50,13 @@ function renderizarMensajes(mensaje, yo) {
         html += ' <h5>' + mensaje.nombre + '</h5>';
         html += ' <div class="box bg-light-inverse">' + mensaje.mensaje + '</div>';
         html += ' </div>';
-        html += '<div class="chat-img"><img src="https://lh3.googleusercontent.com/proxy/XMtsaNSyWudF2mjzNKLR8mC5oH0-igiXPoJ413QE8gVht8f4VS8W6ojSNJwNfcF1Go7ahVqPh5DpfbjLvRKFX5G3GgG0QARKYuq69bEDtDY6nH3hH3o2tDui" alt="user" /></div>';
+        html += '<div class="chat-img"><img src="https://www.kindpng.com/picc/m/22-223965_no-profile-picture-icon-circle-member-icon-png.png" alt="user" /></div>';
         html += '<div class="chat-time">' + hora + '</div>';
         html += ' </li>';
     } else {
         html += '<li class="animated fadeIn">';
         if (mensaje.nombre != 'Admin') {
-            html += ' <div class="chat-img"><img src="https://lh3.googleusercontent.com/proxy/XMtsaNSyWudF2mjzNKLR8mC5oH0-igiXPoJ413QE8gVht8f4VS8W6ojSNJwNfcF1Go7ahVqPh5DpfbjLvRKFX5G3GgG0QARKYuq69bEDtDY6nH3hH3o2tDui" alt="user" /></div>';
+            html += ' <div class="chat-img"><img src="https://www.kindpng.com/picc/m/22-223965_no-profile-picture-icon-circle-member-icon-png.png" alt="user" /></div>';
         }
         html += ' <div class="chat-content">';
         html += '<h5>' + mensajePersonalizado + '</h5>';
